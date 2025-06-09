@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gemini AI Chat</title>
+   <link rel="stylesheet" href="style.css" />
+  
+</head>
+
+<body>
+  <div class="chat-container">
+    <header class="chat-header">
+      <h1>💬 Gemini AI Assistant</h1>
+      <p class="subheading">Powered by Google Gemini API</p>
+    </header>
+
+    <div class="controls">
+      <button id="toggle-theme">Toggle Theme</button>
+      <button id="clear-history">Clear History</button>
+      <button id="export-chat">Export Chat</button>
+      <button id="mic-button">🎤</button>
+      <button id="save-pdf">Save as PDF</button>
+    </div>
+
+    <div id="chat-history" class="chat-history"></div>
+
+    <div class="chat-input">
+      <input type="text" id="user-input" placeholder="Type your message..." autofocus />
+      <button id="send-button">Send</button>
+    </div>
+  </div>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
